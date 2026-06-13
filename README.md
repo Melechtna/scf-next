@@ -72,4 +72,4 @@ While I can't predict how the controller landscape will progress, I do not prete
 
 ## Note to MacOS users
 
-While a binary will be provided, I have no idea how well it will work, if at all. I am merely working off assumptions.S
+While a binary will be provided, I have no idea how well it will work, if at all. I am merely working off assumptions.
