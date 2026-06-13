@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>SCF Next</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <div id="menu-screen">
+      <div id="menu-header">Select a Controller</div>
+      <button id="close-btn" class="close-btn">✕</button>
+      <button id="back-btn" class="close-btn" style="left:8px;right:auto;display:none">←</button>
+      <div id="menu-grid"></div>
+      <div id="menu-status"></div>
+    </div>
+    <div id="debug-screen" style="display:none">
+      <div id="debug-header">Controller Debug</div>
+      <button id="debug-back-btn" class="close-btn">✕</button>
+      <div id="debug-content">
+        <div id="debug-devices">
+          <h3>Connected Devices</h3>
+          <div id="debug-device-list"></div>
+        </div>
+        <div id="debug-live">
+          <h3>Live State</h3>
+          <div id="debug-state">Select a device to see live input data</div>
+        </div>
+      </div>
+    </div>
+    <div id="overlay-screen" style="display:none">
+      <canvas id="overlay-canvas"></canvas>
+      <button id="gear-btn" class="gear-btn">⚙</button>
+      <div id="settings-panel" style="display:none">
+        <h3>Settings</h3>
+        <label>
+          Paint Color:
+          <input type="color" id="paint-color" value="#00c8ff">
+        </label>
+        <label style="margin-top:8px;display:block">
+          Opacity:
+          <input type="range" id="paint-alpha" min="0" max="255" value="255" style="width:120px">
+          <span id="paint-alpha-label">100%</span>
+        </label>
+        <br>
+        <button id="back-to-menu">← Back to Menu</button>
+        <button id="close-settings">Close</button>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="main.js"></script>
+</body>
+</html>

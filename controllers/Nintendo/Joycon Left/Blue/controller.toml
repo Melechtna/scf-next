@@ -1,0 +1,76 @@
+[controller]
+name = "Joycon (L)"
+base = "images/Base.webp"
+icon = "images/Icon.webp"
+
+# ── Input Modes ──
+
+[[modes]]
+name = "joyconl"
+vendor = "057e"
+product = "2006"
+
+# ── System Buttons ──
+
+[[buttons]]
+id = "minus"
+image = "images/Buttons/Minus.webp"
+input = { type = "button", index = 6 }
+
+[[buttons]]
+id = "capture"
+image = "images/Buttons/Capture.webp"
+input = { type = "button", index = 5 }
+
+# ── D-Pad ──
+
+[[buttons]]
+id = "dpad_up"
+image = "images/Buttons/DU.webp"
+input = { type = "button", index = 2 }
+
+[[buttons]]
+id = "dpad_down"
+image = "images/Buttons/DD.webp"
+input = { type = "button", index = 1 }
+
+[[buttons]]
+id = "dpad_left"
+image = "images/Buttons/DL.webp"
+input = { type = "button", index = 0 }
+
+[[buttons]]
+id = "dpad_right"
+image = "images/Buttons/DR.webp"
+input = { type = "button", index = 3 }
+
+# ── Shoulder Buttons ──
+
+[[buttons]]
+id = "l"
+image = "images/Buttons/L.webp"
+input = { type = "button", index = 17 }
+
+[[buttons]]
+id = "sll"
+image = "images/Buttons/SLL.webp"
+input = { type = "button", index = 9 }
+
+[[buttons]]
+id = "srl"
+image = "images/Buttons/SRL.webp"
+input = { type = "button", index = 10 }
+
+# ── Analog Triggers ──
+
+[[buttons]]
+id = "zl"
+image = "images/Buttons/ZL.webp"
+input = { type = "button", index = 19 }
+
+# ── Analog Sticks ──
+
+[[buttons]]
+id = "ls"
+image = "images/Buttons/LS.webp"
+input = { type = "stick", axis_x = 0, axis_y = 1, press_button = 7 }

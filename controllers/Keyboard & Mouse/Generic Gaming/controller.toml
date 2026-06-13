@@ -1,0 +1,78 @@
+[controller]
+name = "Keyboard & Mouse (Gaming)"
+base = "images/Base.webp"
+icon = "images/Icon.webp"
+color = "#e5a50aFF"
+
+[defaults]
+paint = "standard"
+
+[[buttons]]
+id = "k_q"
+image = "images/Buttons/q.webp"
+input = { type = "keyboard", key = 16 }
+
+[[buttons]]
+id = "k_w"
+image = "images/Buttons/w.webp"
+input = { type = "keyboard", key = 17 }
+
+[[buttons]]
+id = "k_e"
+image = "images/Buttons/e.webp"
+input = { type = "keyboard", key = 18 }
+
+[[buttons]]
+id = "k_a"
+image = "images/Buttons/a.webp"
+input = { type = "keyboard", key = 30 }
+
+[[buttons]]
+id = "k_s"
+image = "images/Buttons/s.webp"
+input = { type = "keyboard", key = 31 }
+
+[[buttons]]
+id = "k_d"
+image = "images/Buttons/d.webp"
+input = { type = "keyboard", key = 32 }
+
+[[buttons]]
+id = "k_lshift"
+image = "images/Buttons/lshift.webp"
+input = { type = "keyboard", key = 42 }
+
+[[buttons]]
+id = "k_lctrl"
+image = "images/Buttons/lctrl.webp"
+input = { type = "keyboard", key = 29 }
+
+[[buttons]]
+id = "k_spc"
+image = "images/Buttons/spc.webp"
+input = { type = "keyboard", key = 57 }
+
+[[buttons]]
+id = "m_left"
+image = "images/Buttons/lclk.webp"
+input = { type = "mouse", button = 0 }
+
+[[buttons]]
+id = "m_middle"
+image_up = "images/Buttons/scrlwu.webp"
+image_down = "images/Buttons/scrlwd.webp"
+input = { type = "scroll_wheel" }
+
+[[buttons]]
+id = "m_right"
+image = "images/Buttons/rclk.webp"
+input = { type = "mouse", button = 1 }
+
+[[buttons]]
+id = "m_move"
+input = { type = "mouse_move" }
+paint = "mouse"
+pad_size_x = 118
+pad_size_y = 118
+pad_center_x = 397
+pad_center_y = 222

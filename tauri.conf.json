@@ -1,0 +1,37 @@
+{
+  "productName": "SCF Next",
+  "version": "0.1.0",
+  "identifier": "com.scf-next.app",
+  "build": {
+    "frontendDist": "tauri"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [
+      {
+        "title": "SCF Next",
+        "label": "main",
+        "width": 890.0,
+        "height": 955.0,
+        "resizable": true,
+        "decorations": false,
+        "transparent": true,
+        "center": true
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": false,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  }
+}

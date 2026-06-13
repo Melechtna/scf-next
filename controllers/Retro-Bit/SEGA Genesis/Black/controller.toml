@@ -1,0 +1,109 @@
+[controller]
+name = "Sega Genisis/Mega Drive"
+base = "images/Base.webp"
+icon = "images/Icon.webp"
+
+# ── Input Modes ──
+
+[[modes]]
+name = "segagen"
+vendor = "0079"
+product = "0011"
+
+# ── Face Buttons ──
+
+[[buttons]]
+id = "a"
+image = "images/Buttons/A.webp"
+input = { type = "button", index = 1 }
+
+[[buttons]]
+id = "b"
+image = "images/Buttons/B.webp"
+input = { type = "button", index = 0 }
+
+[[buttons]]
+id = "c"
+image = "images/Buttons/C.webp"
+input = { type = "button", index = 9 }
+
+[[buttons]]
+id = "x"
+image = "images/Buttons/X.webp"
+input = { type = "button", index = 3 }
+
+[[buttons]]
+id = "y"
+image = "images/Buttons/Y.webp"
+input = { type = "button", index = 2 }
+
+[[buttons]]
+id = "z"
+image = "images/Buttons/Z.webp"
+input = { type = "button", index = 10 }
+
+# ── System Buttons ──
+
+[[buttons]]
+id = "select"
+image = "images/Buttons/Select.webp"
+input = { type = "button", index = 4 }
+
+[[buttons]]
+id = "start"
+image = "images/Buttons/Start.webp"
+input = { type = "button", index = 6 }
+
+# ── D-Pad ──
+
+[[buttons]]
+id = "dpad_up"
+image = "images/Buttons/DU.webp"
+input = { type = "button", index = 11 }
+
+[[buttons]]
+id = "dpad_upr"
+image = "images/Buttons/DUR.webp"
+input = { type = "multi", indices = [11, 14] }
+
+[[buttons]]
+id = "dpad_upl"
+image = "images/Buttons/DUL.webp"
+input = { type = "multi", indices = [11, 13] }
+
+[[buttons]]
+id = "dpad_down"
+image = "images/Buttons/DD.webp"
+input = { type = "button", index = 12 }
+
+[[buttons]]
+id = "dpad_downl"
+image = "images/Buttons/DDL.webp"
+input = { type = "multi", indices = [12, 13] }
+
+[[buttons]]
+id = "dpad_downr"
+image = "images/Buttons/DDR.webp"
+input = { type = "multi", indices = [12, 14] }
+
+[[buttons]]
+id = "dpad_left"
+image = "images/Buttons/DL.webp"
+input = { type = "button", index = 13 }
+
+[[buttons]]
+id = "dpad_right"
+image = "images/Buttons/DR.webp"
+input = { type = "button", index = 14 }
+
+# ── Shoulder Buttons ──
+
+[[buttons]]
+id = "l1"
+image = "images/Buttons/L1.webp"
+input = { type = "button", index = 15 }
+
+[[buttons]]
+id = "r1"
+image = "images/Buttons/R1.webp"
+input = { type = "button", index = 16 }

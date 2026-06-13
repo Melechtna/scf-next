@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.scf-next.app</id>
+  <name>SCF Next</name>
+  <summary>Cross-platform controller overlay for streaming and recording</summary>
+  <icon type="stock">com.scf-next.app</icon>
+  <categories>
+    <category>Utility</category>
+  </categories>
+  <launchable type="desktop-id">com.scf-next.app.desktop</launchable>
+</component>

@@ -1,0 +1,131 @@
+[controller]
+name = "XBox 360"
+base = "images/Base.webp"
+icon = "images/Icon.webp"
+
+# ── Input Modes ──
+
+[[modes]]
+name = "xbos"
+vendor = "045e"
+product = "028e"
+
+# ── Face Buttons ──
+
+[[buttons]]
+id = "a"
+image = "images/Buttons/A.webp"
+input = { type = "button", index = 0 }
+
+[[buttons]]
+id = "b"
+image = "images/Buttons/B.webp"
+input = { type = "button", index = 1 }
+
+[[buttons]]
+id = "x"
+image = "images/Buttons/X.webp"
+input = { type = "button", index = 2 }
+
+[[buttons]]
+id = "y"
+image = "images/Buttons/Y.webp"
+input = { type = "button", index = 3 }
+
+# ── System Buttons ──
+
+[[buttons]]
+id = "home"
+image = "images/Buttons/Home.webp"
+input = { type = "button", index = 5 }
+
+[[buttons]]
+id = "start"
+image = "images/Buttons/Start.webp"
+input = { type = "button", index = 6 }
+
+[[buttons]]
+id = "back"
+image = "images/Buttons/Back.webp"
+input = { type = "button", index = 4 }
+
+
+# ── D-Pad ──
+
+[[buttons]]
+id = "dpad_up"
+image = "images/Buttons/DU.webp"
+input = { type = "button", index = 11 }
+
+[[buttons]]
+id = "dpad_upr"
+image = "images/Buttons/DUR.webp"
+input = { type = "multi", indices = [11, 14] }
+
+[[buttons]]
+id = "dpad_upl"
+image = "images/Buttons/DUL.webp"
+input = { type = "multi", indices = [11, 13] }
+
+[[buttons]]
+id = "dpad_down"
+image = "images/Buttons/DD.webp"
+input = { type = "button", index = 12 }
+
+[[buttons]]
+id = "dpad_downl"
+image = "images/Buttons/DDL.webp"
+input = { type = "multi", indices = [12, 13] }
+
+[[buttons]]
+id = "dpad_downr"
+image = "images/Buttons/DDR.webp"
+input = { type = "multi", indices = [12, 14] }
+
+[[buttons]]
+id = "dpad_left"
+image = "images/Buttons/DL.webp"
+input = { type = "button", index = 13 }
+
+[[buttons]]
+id = "dpad_right"
+image = "images/Buttons/DR.webp"
+input = { type = "button", index = 14 }
+
+# ── Shoulder Buttons ──
+
+[[buttons]]
+id = "lb"
+image = "images/Buttons/LB.webp"
+input = { type = "button", index = 9 }
+
+[[buttons]]
+id = "rb"
+image = "images/Buttons/RB.webp"
+input = { type = "button", index = 10 }
+
+# ── Analog Triggers ──
+
+[[buttons]]
+id = "lt"
+image = "images/Buttons/LT.webp"
+input = { type = "trigger", axis = 4 }
+paint = "progressive"
+
+[[buttons]]
+id = "rt"
+image = "images/Buttons/RT.webp"
+input = { type = "trigger", axis = 5 }
+paint = "progressive"
+
+# ── Analog Sticks ──
+
+[[buttons]]
+id = "ls"
+image = "images/Buttons/LS.webp"
+input = { type = "stick", axis_x = 0, axis_y = 1, press_button = 7 }
+
+[[buttons]]
+id = "rs"
+image = "images/Buttons/RS.webp"
+input = { type = "stick", axis_x = 2, axis_y = 3, press_button = 8 }

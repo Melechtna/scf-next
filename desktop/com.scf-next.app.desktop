@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=SCF Next
+Comment=Cross-platform controller overlay for streaming and recording.
+Exec=scf-next
+Icon=com.scf-next.app
+Terminal=false
+Categories=Utility;

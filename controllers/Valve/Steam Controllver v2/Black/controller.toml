@@ -1,0 +1,226 @@
+[controller]
+name = "Steam Controller v2"
+width = 852
+height = 621
+base = "images/Base.webp"
+icon = "images/Icon.webp"
+color = "#e5a50aFF"
+
+[defaults]
+x = 0
+y = 0
+travel = 15
+
+# ── Face Buttons ──
+
+[[buttons]]
+id = "a"
+image = "images/Buttons/A.webp"
+input = { type = "button", index = 0 }
+
+[[buttons]]
+id = "b"
+image = "images/Buttons/B.webp"
+input = { type = "button", index = 1 }
+
+[[buttons]]
+id = "x"
+image = "images/Buttons/X.webp"
+input = { type = "button", index = 2 }
+
+[[buttons]]
+id = "y"
+image = "images/Buttons/Y.webp"
+input = { type = "button", index = 3 }
+
+# ── System Buttons ──
+
+[[buttons]]
+id = "view"
+image = "images/Buttons/View.webp"
+input = { type = "button", index = 4 }
+
+[[buttons]]
+id = "steam"
+image = "images/Buttons/Steam.webp"
+input = { type = "button", index = 5 }
+
+[[buttons]]
+id = "menu"
+image = "images/Buttons/Menu.webp"
+input = { type = "button", index = 6 }
+
+[[buttons]]
+id = "qam"
+image = "images/Buttons/QAM.webp"
+input = { type = "button", index = 15 }
+
+# ── D-Pad ──
+
+[[buttons]]
+id = "dpad_up"
+image = "images/Buttons/DU.webp"
+input = { type = "button", index = 11 }
+
+[[buttons]]
+id = "dpad_down"
+image = "images/Buttons/DD.webp"
+input = { type = "button", index = 12 }
+
+[[buttons]]
+id = "dpad_left"
+image = "images/Buttons/DL.webp"
+input = { type = "button", index = 13 }
+
+[[buttons]]
+id = "dpad_right"
+image = "images/Buttons/DR.webp"
+input = { type = "button", index = 14 }
+
+# ── Grip Sensors (inverse paint: paint when RELEASED, clear when gripped) ──
+
+[[buttons]]
+id = "lg"
+image = "images/Buttons/LG.webp"
+input = { type = "none" }
+paint = "inverse"
+capsense = 0
+
+[[buttons]]
+id = "rg"
+image = "images/Buttons/RG.webp"
+input = { type = "none" }
+paint = "inverse"
+capsense = 1
+
+# ── Shoulder Buttons ──
+
+[[buttons]]
+id = "l1"
+image = "images/Buttons/L1.webp"
+input = { type = "button", index = 9 }
+
+[[buttons]]
+id = "r1"
+image = "images/Buttons/R1.webp"
+input = { type = "button", index = 10 }
+
+# ── Analog Triggers ──
+
+[[buttons]]
+id = "l2"
+image = "images/Buttons/L2.webp"
+input = { type = "trigger", axis = 4 }
+paint = "progressive"
+
+[[buttons]]
+id = "r2"
+image = "images/Buttons/R2.webp"
+input = { type = "trigger", axis = 5 }
+paint = "progressive"
+
+# ── Analog Sticks (movement + click, standard paint) ──
+
+[[buttons]]
+id = "ls"
+image = "images/Buttons/LS.webp"
+input = { type = "stick", axis_x = 0, axis_y = 1, press_button = 7 }
+
+[[buttons]]
+id = "rs"
+image = "images/Buttons/RS.webp"
+input = { type = "stick", axis_x = 2, axis_y = 3, press_button = 8 }
+
+# ── Stick Tip Touch (tap paint via cap sense, references stick graphic) ──
+
+[[buttons]]
+id = "ls_tap"
+reference = "ls"
+paint = "tap"
+transparency = 0.5
+capsense = 2
+
+[[buttons]]
+id = "rs_tap"
+reference = "rs"
+paint = "tap"
+transparency = 0.5
+capsense = 3
+
+# ── Touchpad pressure (progressive paint uses finger pressure) ──
+
+[[buttons]]
+id = "lp"
+image = "images/Buttons/LP.webp"
+input = { type = "touchpad", index = 0, press_button = 20 }
+paint = "progressive"
+
+[[buttons]]
+id = "rp"
+image = "images/Buttons/RP.webp"
+input = { type = "touchpad", index = 1, press_button = 21 }
+paint = "progressive"
+
+# ── Touchpad click (tap paint via physical button, references touchpad graphic) ──
+
+[[buttons]]
+id = "lb"
+reference = "lp"
+input = { type = "button", index = 20 }
+paint = "tap"
+
+[[buttons]]
+id = "rb"
+reference = "rp"
+input = { type = "button", index = 21 }
+paint = "tap"
+
+# ── Touchpad Finger Tracking (trackpad paint: draws a dot at finger position) ──
+
+[[buttons]]
+id = "lt"
+reference = "lp"
+input = { type = "touchpad", index = 0 }
+paint = "trackpad"
+pad_size_x = 187
+pad_size_y = 187
+pad_angle = 9
+pad_shape = "squircle"
+pad_center_x = 260
+pad_center_y = 338
+pad_sensitivity = 0.0001
+
+[[buttons]]
+id = "rt"
+reference = "rp"
+input = { type = "touchpad", index = 1 }
+paint = "trackpad"
+pad_size_x = 187
+pad_size_y = 187
+pad_angle = -9
+pad_shape = "squircle"
+pad_center_x = 595
+pad_center_y = 338
+pad_sensitivity = 0.0001
+
+# ── Back Paddles ──
+
+[[buttons]]
+id = "r4"
+image = "images/Buttons/R4.webp"
+input = { type = "button", index = 16 }
+
+[[buttons]]
+id = "l4"
+image = "images/Buttons/L4.webp"
+input = { type = "button", index = 17 }
+
+[[buttons]]
+id = "r5"
+image = "images/Buttons/R5.webp"
+input = { type = "button", index = 18 }
+
+[[buttons]]
+id = "l5"
+image = "images/Buttons/L5.webp"
+input = { type = "button", index = 19 }

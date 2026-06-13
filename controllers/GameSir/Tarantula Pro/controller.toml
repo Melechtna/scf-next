@@ -1,0 +1,212 @@
+[controller]
+name = "Tarantula Pro"
+base = "images/Base.webp"
+icon = "images/Icon.webp"
+
+# ── Input Modes ──
+
+[[modes]]
+name = "switch"
+vendor = "057e"
+product = "2009"
+
+[[modes]]
+name = "xbox"
+vendor = "045e"
+product = "028e"
+
+[[modes]]
+name = "xbox"
+vendor = "3537"
+product = "103e"
+
+[[modes]]
+name = "xbox"
+vendor = "045e"
+product = "02e0"
+
+[[modes]]
+name = "ps4"
+vendor = "054c"
+product = "09cc"
+
+[[modes]]
+name = "ps4"
+vendor = "054c"
+product = "05c4"
+
+[[modes]]
+name = "gamesir"
+vendor = "3205"
+product = "1030"
+
+[[modes]]
+name = "gamesir"
+vendor = "2345"
+product = "e008"
+
+# ── Face Buttons ──
+
+[[buttons]]
+id = "a"
+image = "images/Buttons/A.webp"
+input = { type = "button", index = 0 }
+
+[[buttons]]
+id = "b"
+image = "images/Buttons/B.webp"
+input = { type = "button", index = 1 }
+
+[[buttons]]
+id = "x"
+image = "images/Buttons/X.webp"
+input = { type = "button", index = 2 }
+
+[[buttons]]
+id = "y"
+image = "images/Buttons/Y.webp"
+input = { type = "button", index = 3 }
+
+# ── System Buttons ──
+
+[[buttons]]
+id = "view"
+image = "images/Buttons/View.webp"
+input = { type = "button", index = 4 }
+
+[[buttons]]
+id = "home"
+image = "images/Buttons/Home.webp"
+input = { type = "button", index = 5 }
+
+[[buttons]]
+id = "menu"
+image = "images/Buttons/Menu.webp"
+input = { type = "button", index = 6 }
+
+[[buttons]]
+id = "capture"
+image = "images/Buttons/Capture.webp"
+input = { type = "button", index = 15 }
+
+[[buttons]]
+id = "pair"
+image = "images/Buttons/Pair.webp"
+input = { type = "button", index = 16 }
+
+[[buttons]]
+id = "psc"
+image = "images/Buttons/PSC.webp"
+input = { type = "button", index = 21 }
+
+# ── Macro Buttons (C1–C4) ──
+
+[[buttons]]
+id = "c1"
+image = "images/Buttons/C1.webp"
+input = { type = "button", index = 22 }
+
+[[buttons]]
+id = "c2"
+image = "images/Buttons/C2.webp"
+input = { type = "button", index = 23 }
+
+[[buttons]]
+id = "c3"
+image = "images/Buttons/C3.webp"
+input = { type = "button", index = 24 }
+
+[[buttons]]
+id = "c4"
+image = "images/Buttons/C4.webp"
+input = { type = "button", index = 25 }
+
+# ── Back Paddles ──
+
+[[buttons]]
+id = "bl"
+image = "images/Buttons/BL.webp"
+input = { type = "button", index = 17 }
+
+[[buttons]]
+id = "br"
+image = "images/Buttons/BR.webp"
+input = { type = "button", index = 18 }
+
+# ── D-Pad ──
+
+[[buttons]]
+id = "dpad_up"
+image = "images/Buttons/DU.webp"
+input = { type = "button", index = 11 }
+
+[[buttons]]
+id = "dpad_down"
+image = "images/Buttons/DD.webp"
+input = { type = "button", index = 12 }
+
+[[buttons]]
+id = "dpad_left"
+image = "images/Buttons/DL.webp"
+input = { type = "button", index = 13 }
+
+[[buttons]]
+id = "dpad_right"
+image = "images/Buttons/DR.webp"
+input = { type = "button", index = 14 }
+
+# ── Shoulder Buttons ──
+
+[[buttons]]
+id = "lb"
+image = "images/Buttons/LB.webp"
+input = { type = "button", index = 9 }
+
+[[buttons]]
+id = "rb"
+image = "images/Buttons/RB.webp"
+input = { type = "button", index = 10 }
+
+# ── Analog Triggers ──
+
+[[buttons]]
+id = "lt"
+image = "images/Buttons/LT.webp"
+input = { type = "trigger", axis = 4 }
+
+[[buttons]]
+id = "rt"
+image = "images/Buttons/RT.webp"
+input = { type = "trigger", axis = 5 }
+
+# ── Analog Sticks ──
+
+[[buttons]]
+id = "ls"
+image = "images/Buttons/LS.webp"
+input = { type = "stick", axis_x = 0, axis_y = 1, press_button = 7 }
+
+[[buttons]]
+id = "rs"
+image = "images/Buttons/RS.webp"
+input = { type = "stick", axis_x = 2, axis_y = 3, press_button = 8 }
+
+# ── Decorative ──
+
+[[buttons]]
+id = "cb"
+image = "images/Buttons/CB.webp"
+input = { type = "none" }
+
+[[buttons]]
+id = "mode"
+image = "images/Buttons/Mode.webp"
+input = { type = "none" }
+
+# ── Mode Overrides ──
+
+[mode_overrides.switch.buttons]
+b = { image = "images/Buttons/SA.webp" }
+a = { image = "images/Buttons/SB.webp" }
+y = { image = "images/Buttons/SX.webp" }
+x = { image = "images/Buttons/SY.webp" }

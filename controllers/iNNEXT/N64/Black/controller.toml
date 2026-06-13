@@ -1,0 +1,97 @@
+[controller]
+name = "N64"
+base = "images/Base.webp"
+icon = "images/Icon.webp"
+
+# ── Input Modes ──
+
+[[modes]]
+name = "n64"
+vendor = "0079"
+product = "0006"
+
+# ── Face Buttons ──
+
+[[buttons]]
+id = "a"
+image = "images/Buttons/A.webp"
+input = { type = "button", index = 6 }
+
+[[buttons]]
+id = "b"
+image = "images/Buttons/B.webp"
+input = { type = "button", index = 8 }
+
+[[buttons]]
+id = "z"
+image = "images/Buttons/Z.webp"
+input = { type = "button", index = 7 }
+
+[[buttons]]
+id = "cu"
+image = "images/Buttons/CU.webp"
+input = { type = "button", index = 0 }
+
+[[buttons]]
+id = "cl"
+image = "images/Buttons/CL.webp"
+input = { type = "button", index = 3 }
+
+[[buttons]]
+id = "cr"
+image = "images/Buttons/CR.webp"
+input = { type = "button", index = 1 }
+
+[[buttons]]
+id = "cd"
+image = "images/Buttons/CD.webp"
+input = { type = "button", index = 2 }
+
+# ── System Buttons ──
+
+[[buttons]]
+id = "start"
+image = "images/Buttons/Start.webp"
+input = { type = "button", index = 9 }
+
+# ── D-Pad ──
+
+[[buttons]]
+id = "dpad_up"
+image = "images/Buttons/DU.webp"
+input = { type = "hat", index = 0, direction = 1 }
+
+[[buttons]]
+id = "dpad_down"
+image = "images/Buttons/DD.webp"
+input = { type = "hat", index = 0, direction = 4}
+
+[[buttons]]
+id = "dpad_left"
+image = "images/Buttons/DL.webp"
+input = { type = "hat", index = 0, direction = 8 }
+
+[[buttons]]
+id = "dpad_right"
+image = "images/Buttons/DR.webp"
+input = { type = "hat", index = 0, direction = 2 }
+
+# ── Shoulder Buttons ──
+
+[[buttons]]
+id = "l1"
+image = "images/Buttons/L1.webp"
+input = { type = "button", index = 4 }
+
+[[buttons]]
+id = "r1"
+image = "images/Buttons/R1.webp"
+input = { type = "button", index = 5 }
+
+
+# ── Analog Sticks ──
+
+[[buttons]]
+id = "stick"
+image = "images/Buttons/Stick.webp"
+input = { type = "stick", axis_x = 0, axis_y = 1 }

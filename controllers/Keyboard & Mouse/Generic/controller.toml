@@ -1,0 +1,348 @@
+[controller]
+name = "Keyboard & Mouse (Generic)"
+base = "images/Base.webp"
+icon = "images/Icon.webp"
+color = "#e5a50aFF"
+
+[defaults]
+paint = "standard"
+
+# ── Keyboard layout (US ANSI) ──
+# Row 1: tilde / number row
+[[buttons]]
+id = "k_tidle"
+image = "images/Buttons/tidle.webp"
+input = { type = "keyboard", key = 41 }
+
+[[buttons]]
+id = "k_1"
+image = "images/Buttons/1.webp"
+input = { type = "keyboard", key = 2 }
+
+[[buttons]]
+id = "k_2"
+image = "images/Buttons/2.webp"
+input = { type = "keyboard", key = 3 }
+
+[[buttons]]
+id = "k_3"
+image = "images/Buttons/3.webp"
+input = { type = "keyboard", key = 4 }
+
+[[buttons]]
+id = "k_4"
+image = "images/Buttons/4.webp"
+input = { type = "keyboard", key = 5 }
+
+[[buttons]]
+id = "k_5"
+image = "images/Buttons/5.webp"
+input = { type = "keyboard", key = 6 }
+
+[[buttons]]
+id = "k_6"
+image = "images/Buttons/6.webp"
+input = { type = "keyboard", key = 7 }
+
+[[buttons]]
+id = "k_7"
+image = "images/Buttons/7.webp"
+input = { type = "keyboard", key = 8 }
+
+[[buttons]]
+id = "k_8"
+image = "images/Buttons/8.webp"
+input = { type = "keyboard", key = 9 }
+
+[[buttons]]
+id = "k_9"
+image = "images/Buttons/9.webp"
+input = { type = "keyboard", key = 10 }
+
+[[buttons]]
+id = "k_0"
+image = "images/Buttons/0.webp"
+input = { type = "keyboard", key = 11 }
+
+[[buttons]]
+id = "k_minus"
+image = "images/Buttons/minus.webp"
+input = { type = "keyboard", key = 12 }
+
+[[buttons]]
+id = "k_equals"
+image = "images/Buttons/equals.webp"
+input = { type = "keyboard", key = 13 }
+
+[[buttons]]
+id = "k_bksp"
+image = "images/Buttons/bksp.webp"
+input = { type = "keyboard", key = 14 }
+
+# Row 2: Tab / QWERTY
+[[buttons]]
+id = "k_tab"
+image = "images/Buttons/tab.webp"
+input = { type = "keyboard", key = 15 }
+
+[[buttons]]
+id = "k_q"
+image = "images/Buttons/q.webp"
+input = { type = "keyboard", key = 16 }
+
+[[buttons]]
+id = "k_w"
+image = "images/Buttons/w.webp"
+input = { type = "keyboard", key = 17 }
+
+[[buttons]]
+id = "k_e"
+image = "images/Buttons/e.webp"
+input = { type = "keyboard", key = 18 }
+
+[[buttons]]
+id = "k_r"
+image = "images/Buttons/r.webp"
+input = { type = "keyboard", key = 19 }
+
+[[buttons]]
+id = "k_t"
+image = "images/Buttons/t.webp"
+input = { type = "keyboard", key = 20 }
+
+[[buttons]]
+id = "k_y"
+image = "images/Buttons/y.webp"
+input = { type = "keyboard", key = 21 }
+
+[[buttons]]
+id = "k_u"
+image = "images/Buttons/u.webp"
+input = { type = "keyboard", key = 22 }
+
+[[buttons]]
+id = "k_i"
+image = "images/Buttons/i.webp"
+input = { type = "keyboard", key = 23 }
+
+[[buttons]]
+id = "k_o"
+image = "images/Buttons/o.webp"
+input = { type = "keyboard", key = 24 }
+
+[[buttons]]
+id = "k_p"
+image = "images/Buttons/p.webp"
+input = { type = "keyboard", key = 25 }
+
+[[buttons]]
+id = "k_openbracket"
+image = "images/Buttons/openbracket.webp"
+input = { type = "keyboard", key = 26 }
+
+[[buttons]]
+id = "k_closebracket"
+image = "images/Buttons/closebracket.webp"
+input = { type = "keyboard", key = 27 }
+
+[[buttons]]
+id = "k_backslash"
+image = "images/Buttons/backslash.webp"
+input = { type = "keyboard", key = 43 }
+
+# Row 3: Caps / ASDF
+[[buttons]]
+id = "k_cpslck"
+image = "images/Buttons/cpslck.webp"
+input = { type = "keyboard", key = 58 }
+
+[[buttons]]
+id = "k_a"
+image = "images/Buttons/a.webp"
+input = { type = "keyboard", key = 30 }
+
+[[buttons]]
+id = "k_s"
+image = "images/Buttons/s.webp"
+input = { type = "keyboard", key = 31 }
+
+[[buttons]]
+id = "k_d"
+image = "images/Buttons/d.webp"
+input = { type = "keyboard", key = 32 }
+
+[[buttons]]
+id = "k_f"
+image = "images/Buttons/f.webp"
+input = { type = "keyboard", key = 33 }
+
+[[buttons]]
+id = "k_g"
+image = "images/Buttons/g.webp"
+input = { type = "keyboard", key = 34 }
+
+[[buttons]]
+id = "k_h"
+image = "images/Buttons/h.webp"
+input = { type = "keyboard", key = 35 }
+
+[[buttons]]
+id = "k_j"
+image = "images/Buttons/j.webp"
+input = { type = "keyboard", key = 36 }
+
+[[buttons]]
+id = "k_k"
+image = "images/Buttons/k.webp"
+input = { type = "keyboard", key = 37 }
+
+[[buttons]]
+id = "k_l"
+image = "images/Buttons/l.webp"
+input = { type = "keyboard", key = 38 }
+
+[[buttons]]
+id = "k_semicol"
+image = "images/Buttons/semicol.webp"
+input = { type = "keyboard", key = 39 }
+
+[[buttons]]
+id = "k_apostrophe"
+image = "images/Buttons/apostrophe.webp"
+input = { type = "keyboard", key = 40 }
+
+[[buttons]]
+id = "k_enter"
+image = "images/Buttons/enter.webp"
+input = { type = "keyboard", key = 28 }
+
+# Row 4: Shift / ZXCV
+[[buttons]]
+id = "k_lshift"
+image = "images/Buttons/lshift.webp"
+input = { type = "keyboard", key = 42 }
+
+[[buttons]]
+id = "k_z"
+image = "images/Buttons/z.webp"
+input = { type = "keyboard", key = 44 }
+
+[[buttons]]
+id = "k_x"
+image = "images/Buttons/x.webp"
+input = { type = "keyboard", key = 45 }
+
+[[buttons]]
+id = "k_c"
+image = "images/Buttons/c.webp"
+input = { type = "keyboard", key = 46 }
+
+[[buttons]]
+id = "k_v"
+image = "images/Buttons/v.webp"
+input = { type = "keyboard", key = 47 }
+
+[[buttons]]
+id = "k_b"
+image = "images/Buttons/b.webp"
+input = { type = "keyboard", key = 48 }
+
+[[buttons]]
+id = "k_n"
+image = "images/Buttons/n.webp"
+input = { type = "keyboard", key = 49 }
+
+[[buttons]]
+id = "k_m"
+image = "images/Buttons/m.webp"
+input = { type = "keyboard", key = 50 }
+
+[[buttons]]
+id = "k_comma"
+image = "images/Buttons/comma.webp"
+input = { type = "keyboard", key = 51 }
+
+[[buttons]]
+id = "k_period"
+image = "images/Buttons/period.webp"
+input = { type = "keyboard", key = 52 }
+
+[[buttons]]
+id = "k_forslash"
+image = "images/Buttons/forslash.webp"
+input = { type = "keyboard", key = 53 }
+
+[[buttons]]
+id = "k_rshift"
+image = "images/Buttons/rshift.webp"
+input = { type = "keyboard", key = 54 }
+
+# Row 5: Ctrl / Super / Alt / Space / AltGr / Super / Context / Ctrl
+[[buttons]]
+id = "k_lctrl"
+image = "images/Buttons/lctrl.webp"
+input = { type = "keyboard", key = 29 }
+
+[[buttons]]
+id = "k_lsuper"
+image = "images/Buttons/lsuper.webp"
+input = { type = "keyboard", key = 125 }
+
+[[buttons]]
+id = "k_lalt"
+image = "images/Buttons/lalt.webp"
+input = { type = "keyboard", key = 56 }
+
+[[buttons]]
+id = "k_spc"
+image = "images/Buttons/spc.webp"
+input = { type = "keyboard", key = 57 }
+
+[[buttons]]
+id = "k_ralt"
+image = "images/Buttons/ralt.webp"
+input = { type = "keyboard", key = 100 }
+
+[[buttons]]
+id = "k_rsuper"
+image = "images/Buttons/rsuper.webp"
+input = { type = "keyboard", key = 126 }
+
+[[buttons]]
+id = "k_context"
+image = "images/Buttons/context.webp"
+input = { type = "keyboard", key = 139 }
+
+[[buttons]]
+id = "k_rctrl"
+image = "images/Buttons/rctrl.webp"
+input = { type = "keyboard", key = 97 }
+
+# ── Mouse buttons ──
+
+[[buttons]]
+id = "m_left"
+image = "images/Buttons/lclk.webp"
+input = { type = "mouse", button = 0 }
+
+[[buttons]]
+id = "m_middle"
+image_up = "images/Buttons/scrlwu.webp"
+image_down = "images/Buttons/scrlwd.webp"
+input = { type = "scroll_wheel" }
+
+[[buttons]]
+id = "m_right"
+image = "images/Buttons/rclk.webp"
+input = { type = "mouse", button = 1 }
+
+# ── Mouse movement (virtual stick driven by physical mouse) ──
+
+[[buttons]]
+id = "m_move"
+input = { type = "mouse_move" }
+paint = "mouse"
+pad_size_x = 118
+pad_size_y = 118
+pad_center_x = 1069
+pad_center_y = 201
