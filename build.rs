@@ -78,6 +78,9 @@ fn main() {
         println!("cargo:rustc-link-lib=framework=Foundation");
         println!("cargo:rustc-link-lib=framework=ForceFeedback");
         println!("cargo:rustc-link-lib=framework=Carbon");
+        println!("cargo:rustc-link-lib=framework=GameController");
+        println!("cargo:rustc-link-lib=framework=CoreHaptics");
+        println!("cargo:rustc-link-lib=framework=UniformTypeIdentifiers");
         println!("cargo:rustc-link-lib=pthread");
     } else {
         println!("cargo:rustc-link-lib=pthread");
