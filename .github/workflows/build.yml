@@ -52,11 +52,25 @@ jobs:
       - name: Build
         run: cargo build --release --target x86_64-pc-windows-gnu
 
+      - name: Bundle WebView2Loader.dll
+        run: |
+          WEBVIEW2_DIR="target/x86_64-pc-windows-gnu/release"
+          # Find the dll in the webview2-com-sys build output
+          DLL=$(find target -path "*/webview2-com-sys-*/out/x64/WebView2Loader.dll" 2>/dev/null | head -1)
+          if [ -n "$DLL" ]; then
+            cp "$DLL" "$WEBVIEW2_DIR/"
+            echo "Bundled WebView2Loader.dll from $DLL"
+          else
+            echo "WebView2Loader.dll not found in build output"
+          fi
+
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: scf-next-windows
-          path: target/x86_64-pc-windows-gnu/release/scf-next.exe
+          path: |
+            target/x86_64-pc-windows-gnu/release/scf-next.exe
+            target/x86_64-pc-windows-gnu/release/WebView2Loader.dll
 
   macos:
     runs-on: macos-latest
