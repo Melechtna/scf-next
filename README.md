@@ -21,7 +21,7 @@ Built with [Tauri](https://tauri.app) (Rust backend + HTML/JS/CSS frontend) and 
 
 - Rust toolchain (2021 edition)
 - CMake + Ninja
-- Linux: `libevdev-dev`, `libglib2.0-dev`
+- Linux: `libevdev-dev`, `libglib2.0-dev`, `libgtk-3-dev`
 - Windows (cross-compile): MinGW (`x86_64-w64-mingw32-gcc`)
 
 ### Setup
