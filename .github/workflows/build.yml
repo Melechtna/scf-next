@@ -22,7 +22,7 @@ jobs:
       - name: Install system deps
         run: |
           sudo apt-get update
-          sudo apt-get install -y cmake ninja-build libevdev-dev libglib2.0-dev libgtk-3-dev
+          sudo apt-get install -y cmake ninja-build libevdev-dev libglib2.0-dev libgtk-3-dev libwebkit2gtk-4.1-dev
 
       - name: Build
         run: cargo build --release
