@@ -62,8 +62,6 @@ just uninstall
 2. Browse controller groups by vendor, select your desired controller
 3. The overlay renders the controller with transparency and input reacts as you interact with them
 
-The controllers folder needs to either be next to the executable, or, for Linux, it must go in ~/.config/scf-next, especially if installed with the just file. %appdata%/Local/scf-next for Windows, or next to the exe. ~/Library/Application Support/scf-next for MacOS, or next to the executable.
-
 ## Creating Controller Profiles
 
 See the wiki for the full TOML markup reference. Profiles live in `controllers/Vendor/Model/Variant/controller.toml` with images in an `images/` subdirectory.
