@@ -52,7 +52,7 @@ fn main() {
 
     let dst = config.build();
 
-    println!("cargo:rustc-link-search=native={}/lib", dst.display());
+    println!("cargo:rustc-link-search=native={}/lib64", dst.display());
     println!("cargo:rustc-link-lib=static=SDL3");
 
     if is_windows {

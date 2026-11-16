@@ -7,7 +7,7 @@ build:
     cargo build --release
 
 # Install system-wide
-install: build
+install:
     #!/usr/bin/env bash
     set -e
 

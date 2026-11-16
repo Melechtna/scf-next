@@ -21,7 +21,7 @@ Built with [Tauri](https://tauri.app) (Rust backend + HTML/JS/CSS frontend) and 
 
 - Rust toolchain (2021 edition)
 - CMake + Ninja
-- Linux: `libevdev-dev`, `libglib2.0-dev`, `libgtk-3-dev`
+- Linux: `libevdev-dev`, `libglib2.0-dev`, `libgtk-3-dev`, and your user must be in the `input` group for keyboard/mouse capture (`sudo usermod -aG input $USER` then log out and back in)
 - Windows (cross-compile): MinGW (`x86_64-w64-mingw32-gcc`)
 
 ### Setup
